@@ -1,0 +1,3 @@
+{
+"executionRoleArn": "arn:aws:iam::247672886355:role/ec2_role_ecs_and_ecr"
+}
