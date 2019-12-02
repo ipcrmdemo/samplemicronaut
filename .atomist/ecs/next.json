@@ -1,6 +1,6 @@
 {
   "healthCheckPath": "/test",
-  "Conditions": [
+  "conditions": [
     {
       "Field": "path-pattern",
       "Values": [
