@@ -1,11 +1,2 @@
 {
-  "healthCheckPath": "/test",
-  "conditions": [
-    {
-      "Field": "path-pattern",
-      "Values": [
-        "/samplemicronaut-test1/*"
-      ]
-    }
-  ]
 }
