@@ -1,5 +1,6 @@
 {
   "executionRoleArn": "arn:aws:iam::247672886355:role/ec2_role_ecs_and_ecr",
+  "memory": "1024",
   "containerDefinitions": [
     {
       "healthCheck": {
