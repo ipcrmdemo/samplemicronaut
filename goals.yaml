@@ -4,7 +4,8 @@
   command: /bin/bash
   arguments:
     - -c
-    - "date +%s"
+    - date 
+    - +%s
   preApproval: false
 - displayName: Test Goal 2
   image: ubuntu
