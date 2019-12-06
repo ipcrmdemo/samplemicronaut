@@ -12,5 +12,5 @@
   version: "18.04"
   command: apt-get
   arguments:
-    - list
+    - update
   retry: true
