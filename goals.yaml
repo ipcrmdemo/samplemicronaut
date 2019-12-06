@@ -11,4 +11,4 @@
   command: apt-get
   arguments:
     - list
-  retry: false
+  retry: true
