@@ -1,10 +1,8 @@
 - displayName: Test Goal 1
   image: ubuntu
   version: "18.04"
-  command: /bin/bash
+  command: date
   arguments:
-    - -c
-    - date 
     - +%s
   preApproval: false
 - displayName: Test Goal 2
