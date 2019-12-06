@@ -1,0 +1,14 @@
+- displayName: Test Goal 1
+  image: ubuntu
+  version: "18.04"
+  command: date
+  arguments:
+    - +%s
+  preApproval: true
+- displayName: Test Goal 2
+  image: ubuntu
+  version: "18.04"
+  command: apt-get
+  arguments:
+    - list
+  retry: false
