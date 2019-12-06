@@ -1,11 +1,11 @@
-- displayName: Test Goal 1
+- displayName: What is the date
   image: ubuntu
   version: "18.04"
   command: date
   arguments:
     - +%s
   preApproval: false
-- displayName: Test Goal 2
+- displayName: Apt Get Update
   image: ubuntu
   version: "18.04"
   command: apt-get
